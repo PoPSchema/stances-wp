@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 namespace PoP\StancesWP\TypeAPIs;
 
 use function get_post;
