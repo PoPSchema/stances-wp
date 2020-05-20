@@ -1,2 +1,2 @@
 <?php
-\PoP\StancesWP\Component::init();
+//\PoP\StancesWP\Component::initialize();
