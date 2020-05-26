@@ -25,7 +25,9 @@ composer require getpop/stances-wp
 Initialize the component:
 
 ``` php
-\PoP\StancesWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\StancesWP\Component::class,
+]);
 ```
 
 ## Standards
