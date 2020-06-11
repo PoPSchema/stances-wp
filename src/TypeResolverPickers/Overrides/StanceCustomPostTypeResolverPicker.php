@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PoP\StancesWP\TypeResolverPickers\Overrides;
 
-use PoP\ContentWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
+use PoP\CustomPostsWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
 use PoP\PostsWP\TypeResolverPickers\NoCastCustomPostTypeResolverPickerTrait;
 
 class StanceCustomPostTypeResolverPicker extends \PoP\Stances\TypeResolverPickers\Optional\StanceCustomPostTypeResolverPicker implements CustomPostTypeResolverPickerInterface

@@ -20,7 +20,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\Stances\Component::class,
-            \PoP\ContentWP\Component::class,
+            \PoP\CustomPostsWP\Component::class,
         ];
     }
 
