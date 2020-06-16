@@ -11,7 +11,7 @@ class StanceCustomPostTypeResolverPicker extends \PoP\Stances\TypeResolverPicker
 {
     use NoCastCustomPostTypeResolverPickerTrait;
 
-    public function getPostType(): string
+    public function getCustomPostType(): string
     {
         return \POP_USERSTANCE_POSTTYPE_USERSTANCE;
     }
