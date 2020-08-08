@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace PoP\StancesWP\TypeResolverPickers\Overrides;
+namespace PoPSchema\StancesWP\TypeResolverPickers\Overrides;
 
-use PoP\CustomPostsWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
-use PoP\CustomPostsWP\TypeResolverPickers\NoCastCustomPostTypeResolverPickerTrait;
+use PoPSchema\CustomPostsWP\TypeResolverPickers\CustomPostTypeResolverPickerInterface;
+use PoPSchema\CustomPostsWP\TypeResolverPickers\NoCastCustomPostTypeResolverPickerTrait;
 
-class StanceCustomPostTypeResolverPicker extends \PoP\Stances\TypeResolverPickers\Optional\StanceCustomPostTypeResolverPicker implements CustomPostTypeResolverPickerInterface
+class StanceCustomPostTypeResolverPicker extends \PoPSchema\Stances\TypeResolverPickers\Optional\StanceCustomPostTypeResolverPicker implements CustomPostTypeResolverPickerInterface
 {
     use NoCastCustomPostTypeResolverPickerTrait;
 

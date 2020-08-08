@@ -17,7 +17,7 @@ Implementation for WordPress of contracts from package "Stances"
 Via Composer
 
 ``` bash
-composer require getpop/stances-wp
+composer require pop-schema/stances-wp
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\StancesWP\Component::class,
+    \PoPSchema\StancesWP\Component::class,
 ]);
 ```
 
@@ -61,17 +61,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/stances-wp.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/pop-schema/stances-wp.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/stances-wp/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/stances-wp.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/stances-wp.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/stances-wp.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/pop-schema/stances-wp/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/pop-schema/stances-wp.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/pop-schema/stances-wp.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/pop-schema/stances-wp.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/stances-wp
-[link-travis]: https://travis-ci.org/getpop/stances-wp
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/stances-wp/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/stances-wp
-[link-downloads]: https://packagist.org/packages/getpop/stances-wp
+[link-packagist]: https://packagist.org/packages/pop-schema/stances-wp
+[link-travis]: https://travis-ci.org/pop-schema/stances-wp
+[link-scrutinizer]: https://scrutinizer-ci.com/g/pop-schema/stances-wp/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/pop-schema/stances-wp
+[link-downloads]: https://packagist.org/packages/pop-schema/stances-wp
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors
