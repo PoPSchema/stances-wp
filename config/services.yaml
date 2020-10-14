@@ -1,4 +1,4 @@
 services:
-    stance_type_api:
+    PoPSchema\Stances\TypeAPIs\StanceTypeAPIInterface:
         class: \PoPSchema\StancesWP\TypeAPIs\StanceTypeAPI
         public: true
